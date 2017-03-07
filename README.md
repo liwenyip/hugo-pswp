@@ -29,7 +29,7 @@ Put files in following places:
 - `{{< figure src="image.jpg" >}}` will use `image.jpg` for thumbnail and lightbox
 - `{{< figure src="thumb.jpg" link="image.jpg" >}}` will use `thumb.jpg` for thumbnail and `image.jpg` for lightbox
 - `{{< figure thumb="-small" link="image.jpg" >}}` will use `image-small.jpg` for thumbnail and `image.jpg` for lightbox
-- `{{< figure thumb="-small" link="image.jpg" size=`1024x768`>}}` will avoid needing to pre-load `image.jpg` to determine its size (optional)
+- `{{< figure thumb="-small" link="image.jpg" size="1024x768">}}` will avoid needing to pre-load `image.jpg` to determine its size (optional)
 - All the [features/parameters](https://gohugo.io/extras/shortcodes) of Hugo's built-in `figure` shortcode work as normal, i.e. src, link, title, caption, class, attr (attribution), attrlink, alt
 - `{{< figure src="image.jpg" class="pswp-ignore" >}}` will be ignored by PhotoSwipe (if that's what you really want)
 - - enclose your figures in `{{< gallery title="title of your gallery (optional)" >}}` and `{{< gallery />}} to arrange your thumbnails inside a box
