@@ -5,6 +5,8 @@ Shortcodes, js, and css that enables PhotoSwipe to work with your existing Hugo 
 
 Full documentation and demo at https://www.liwen.id.au/photoswipe/
 
+If you're looking for PhotoSwipe + pretty CSS image galleries on-page, have a look at https://github.com/liwenyip/hugo-easy-gallery/
+
 ## Features
 
 - Loads all of the `<figure>` elements in your post, regardless of where in your post they appear, into a lightbox/carousel style image gallery
